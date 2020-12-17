@@ -36,9 +36,9 @@ switch(THIS_PAGE){
         
      case 'index.php':
         $body = 'home';
-        $mainHeadline ='Represent the best top 12 Cities in the world to trvel!';
+        $mainHeadline ='<class="homspan" span> Travel Company Represent</span> <span>the best 12 Cities in the world to trvel </span>';
         $title = 'Home page'; 
-        $center = 'center';
+//        $center = 'center';
         break; 
     case 'about.php' :
         $body ='about inner';
@@ -99,13 +99,13 @@ case 'cities-view.php' :
        
         break ; 
         
-    case 'gallery.php' :
-        $body ='gallery inner';
-        $title ='Gallery';
-        $mainHeadline ='Welcome to Candidadates Gallery';
-        $center = 'center';
-       
-        break ; 
+//    case 'gallery.php' :
+//        $body ='gallery inner';
+//        $title ='Gallery';
+//        $mainHeadline ='Welcome to Candidadates Gallery';
+//        $center = 'center';
+//       
+//        break ; 
     
         
     case 'contact.php' :
@@ -249,7 +249,7 @@ if(isset($_POST['firstName'],
          $_POST['comments'],
          $_POST['tel'],
          $_POST['privacy'])) { 
-    $to = 'ahemdhamads@gmail.com';
+    $to = 'szemeo@mystudentswa.com';
     $subject = 'Test Email' .date('m/d/y');
     $body = ''.$firstName.' has filled out your form '.PHP_EOL.'';
     $body .= 'Email: '.$email.' '.PHP_EOL.'';

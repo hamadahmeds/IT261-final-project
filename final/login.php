@@ -7,7 +7,6 @@ include('includes/header.php');
 
 ?> 
 
-<div id="wrapper">
 <main>
 
 <h1>Sign-In</h1>
@@ -37,4 +36,6 @@ include('includes/header.php');
   
   <p class="reg-again">New customer? <a href="register.php"> Register Here</a> </p>
   
+  
+</main>
 <?php  include('includes/footer.php'); ?> 

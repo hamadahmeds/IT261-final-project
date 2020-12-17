@@ -8,6 +8,14 @@
     
 }
 
+
+
+div.wrapper,footer {
+    width:90%;
+    margin:auto;
+  
+    overflow:auto;
+}
 p  {
     font-size:20px;
     
@@ -25,6 +33,10 @@ body{
 }
 .home {
    background-color: cornsilk;
+}
+.home span {
+    color: black;
+    font-size: 20px;
 }
 .home main{
   width: 100%;
@@ -64,14 +76,15 @@ body{
     background: lightyellow ;
 }
 .about  main p {
-    background: gray;
-    border-bottom: 3px solid  chartreuse;
-    padding: 10px;
-    color: whitesmoke;
+    
+    border-bottom: 3px solid black;
+   
+    margin-bottom: 20px;
 }
-.cities #wrapper{
-    background: beige;
+.about  main{
+    margin: 0 auto;
 }
+
 .cities-view #wrapper{
     background: beige;
 }
@@ -80,15 +93,12 @@ body{
 
 }
 
-.login{
-    
-    
-}
+
 .register {
     background: green;
 }
 header {
-    background:orange; 
+    background:#FF8C00; 
     overflow: hidden;
 }
 
@@ -101,9 +111,9 @@ header {
 #logo{
 margin-bottom: 20px;
 vertical-align: middle;
-  width: 100px;
-  height: 100px;
-  border-radius: 40%;
+  width: 125px;
+  height: 125px;
+  border-radius: 20%;
  float: left;
 }
 
@@ -116,8 +126,10 @@ nav ul{
 }
 nav li {
     float: left;
-    margin-left:20px;
+    margin-top: 25px;
+    margin-left:30px;
     list-style-type: none;
+    font-size: 20px;
     
 }
 nav a {
@@ -200,6 +212,7 @@ font-size: 1.2em;
 }
 ul {
     list-style: none;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
  h1{
@@ -255,7 +268,12 @@ td{
 .candidates td:nth-child(3){
     padding-left: 20px;
 }
+img{
+    max-width: 100%;
+}
 
+/*footer style ststar here*/
+/*
 
 footer{
     height: 50px;
@@ -268,11 +286,33 @@ float: left;
     margin-right: 30px;
     list-style-type: none;
 }
-img{
-    max-width: 100%;
+
+*/
+
+footer {
+    width: 100%;
+    height:300px;
+   
+    clear:both;
 }
 
+.copyright {
+      background:#FFA500;
+    padding-left: 20px;
+    height:50px;
+    line-height:50px;
+   
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
+.copyright li {
+    color:#fff;
+    text-decoration: none;
+    float:left;
+    list-style-type:none;
+    margin-right:30px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
 
 
@@ -341,6 +381,10 @@ textarea{
         select {
             margin-bottom: 10px;
         }
+.homspan{
+    font-size: 20px;
+     font-family: 'Cardo', serif;
+}
         
         span {
             display:block;
@@ -360,7 +404,7 @@ background: #fff;
 
 .reg-again {
     text-align: center;
-    background-color: lightgreen;
+   
     height: 25px;
     max-width:500px;
     margin:  0 auto  30px;
@@ -369,7 +413,7 @@ background: #fff;
 .success-login {
    position: absolute;
    left: 0px;
-    top: 120px;
+    top:0px;
   width: 100px;
   height: 90px;
     background: #7CFC00;
@@ -379,7 +423,7 @@ background: #fff;
 .success-logout {
   position: absolute;
    right: 0;
-   top: 120px;
+   top:0;
   width: 150px;
   height: 110px;
     background:#DEB887;

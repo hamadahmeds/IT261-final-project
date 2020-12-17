@@ -4,9 +4,6 @@ include('includes/header.php');
 ?> 
 
 
-
-<div id ="wrapper"> 
-
 <main>
 <h1 class=" <?php echo $center; ?> "> <?php  echo $mainHeadline;  ?> </h1>
  

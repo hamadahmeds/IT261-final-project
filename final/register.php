@@ -5,7 +5,7 @@ include('includes/header.php');
 
 ?> 
 
-<div id="wrapper">
+
 <main>
 <h1>Create account</h1>
 
@@ -45,6 +45,6 @@ include('includes/errors.php');
    </fieldset>
     </form>
     <p class="center">Already have an account? <a href="login.php">Sign-In!</a> </p>
-    
+</main>
    <?php  include('includes/footer.php'); ?> 
   

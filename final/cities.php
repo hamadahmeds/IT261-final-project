@@ -8,7 +8,7 @@ include('includes/header.php');
 
 ?> 
 
-<div id="wrapper">
+
 <h1 class=" <?php echo $center; ?> "> <?php  echo $mainHeadline;  ?> </h1>
 
 <main>

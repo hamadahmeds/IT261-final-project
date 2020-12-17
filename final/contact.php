@@ -7,7 +7,7 @@ include('includes/header.php');
 ?> 
 
 
-<div id="wrapper">
+
 
 <main> 
 <h1> <?php  echo $mainHeadline;  ?> </h1>

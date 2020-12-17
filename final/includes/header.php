@@ -21,10 +21,11 @@
    
 <body class="<?php echo $body ;  ?> ">
 
+
 <header> 
 <div class="inner-header"> 
      
-      <a href="../index.php"><img id="logo" src="images/logo.jpg" alt="logo"></a>
+      <a href="index.php"><img id="logo" src="images/logo.jpg" alt="logo"></a>
       
 <nav>   
 
@@ -36,3 +37,4 @@
 </nav>
 </div> <!-- end of inner header -->
 </header>
+<div id="wrapper">
